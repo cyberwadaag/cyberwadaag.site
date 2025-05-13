@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberWadaag - Somali Software & Cybersecurity Company</title>
+    <meta name="description" content="CyberWadaag is a modern Somali software company providing expert services in web development, mobile app development, cybersecurity, payment gateway integration, and software consulting.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="somali-spinner">
+            <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- نجمة زرقاء متحركة -->
+                <polygon class="somalia-star" points="50,5 61,40 100,40 69,62 79,95 50,75 21,95 31,62 0,40 39,40" fill="#1793d1" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="CyberWadaag Logo" class="site-logo">CyberWadaag</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="contact.html" class="nav-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="somalia-map-bg" style="background-image: url('img/somalia-map-outline.svg');"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Building Digital Somalia — <span>Securely & Professionally</span></h1>
+                <p>Empowering the future of Somali technology with expert software solutions and cybersecurity services</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">View Our Services</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About CyberWadaag</h2>
+                <div class="separator"></div>
+                <p class="mission-statement">"Empowering Somali tech innovation."</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p>CyberWadaag is a modern Somali software company offering cutting-edge digital solutions designed to help businesses and organizations in Somalia and beyond thrive in the digital landscape. We combine technical expertise with deep understanding of the local market to deliver secure, efficient, and innovative solutions.</p>
+                    <p>Our team consists of passionate Somali tech professionals dedicated to elevating Somalia's digital presence on the global stage.</p>
+                    <blockquote class="president-quote">
+                        <div class="president-container">
+                            <div class="president-image-wrapper">
+                                <div class="president-image-stars">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Official_portrait_of_Major_General_Siad_Barre.jpg/250px-Official_portrait_of_Major_General_Siad_Barre.jpg" alt="President Siad Barre" class="president-image">
+                                </div>
+                            </div>
+                            <div class="president-text">
+                                <p><em>As the late President Siad Barre once said:</em></p>
+                                <p><strong>"Strength lies in unity and knowledge, and with knowledge, we defend our future."</strong></p>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="ceo-card" data-aos="fade-left" data-aos-delay="300">
+                    <div class="ceo-img">
+                        <div class="ceo-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="ceo-info">
+                        <h3>Abdullah Mustafa Abdullah</h3>
+                        <p class="ceo-title">Founder & CEO</p>
+                        <p class="ceo-bio">Abdullah is a visionary tech leader with extensive experience in software development and cybersecurity. His passion for digital innovation drives CyberWadaag's mission to transform Somalia's tech landscape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <div class="separator"></div>
+                <p>Comprehensive digital solutions tailored for Somalia's unique needs</p>
+            </div>
+            <div class="services-grid">
+                <!-- Web Development -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Design & Development</h3>
+                    <p>Custom websites and web applications designed to elevate your business presence with responsive, user-friendly interfaces.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Development</li>
+                    </ul>
+                </div>
+
+                <!-- Mobile App Development -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>Native and cross-platform mobile applications designed to meet the specific needs of Somali businesses and consumers.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Apps</li>
+                        <li>Cross-Platform Solutions</li>
+                        <li>App Maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- Cybersecurity -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Comprehensive security solutions to protect your digital assets from evolving cyber threats and vulnerabilities.</p>
+                    <ul class="service-features">
+                        <li>Penetration Testing</li>
+                        <li>Threat Analysis</li>
+                        <li>Security Consulting</li>
+                    </ul>
+                </div>
+
+                <!-- Payment Integration -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Payment Integration</h3>
+                    <p>Seamless integration of payment gateways for local and global services, enabling smooth financial transactions.</p>
+                    <ul class="service-features">
+                        <li>Local Payment Solutions</li>
+                        <li>International Gateways</li>
+                        <li>Secure Transactions</li>
+                    </ul>
+                </div>
+
+                <!-- Custom Software -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Custom Software Projects</h3>
+                    <p>Tailor-made software solutions designed to address specific business challenges and optimize operations.</p>
+                    <ul class="service-features">
+                        <li>Enterprise Solutions</li>
+                        <li>Workflow Automation</li>
+                        <li>Legacy System Integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="map-section section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Somalia Map</h2>
+                <div class="separator"></div>
+                <p>Our service coverage across Somalia</p>
+            </div>
+            <div class="map-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="somalia-map-interactive">
+                    <div class="map-wrapper">
+                        <object data="img/somalia-map-outline.svg" type="image/svg+xml" class="full-map" id="somalia-map-object" width="400" height="400"></object>
+                    </div>
+                    <div class="region-labels">
+                        <div class="region-info">
+                            <p>Interactive map of Somalia - Hover over regions to see their names</p>
+                        </div>
+                    </div>
+                    <div class="city-info">
+                        <h3>Our Services Across Somalia</h3>
+                        <p>Hover over a city to see available services</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to transform your digital presence?</h2>
+                <p>Let's collaborate to bring your vision to life with secure, innovative solutions.</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-logo-image">
+                        <img src="img/logo.png" alt="CyberWadaag Logo" class="footer-site-logo">
+                        <h3>CyberWadaag</h3>
+                    </div>
+                    <p>Building Digital Somalia — Securely & Professionally</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> cyberwadaag@yahoo.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Mogadishu, Banadir, Somalia</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/cyberwadaag" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Proudly Somali-Owned • CyberWadaag © 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
